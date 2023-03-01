@@ -96,12 +96,25 @@ params:
     title: "À propos de moi"
     image: "/me.jpeg"
     content: |-
+      Pourquoi j’aime la **Data** ?
+
       Depuis 2008, ce que j’aime, ce sont les problèmes liés aux données. 
-      L’architecture, la manipulation, le requêtage des données permettent de se sentir plus proche du besoin fonctionnel.
+      L’architecture, la manipulation, la création de requête auprès de la base de données me permettent de me sentir plus proche du besoin fonctionnel.
       Lorsque je m’assure de la qualité d’une API, j’ai toujours préféré approfondir les tests fonctionnels plutôt que garder seulement du code testé de manière unitaire.
 
+      Pourquoi, je me forme au métier de **Data Engineer** ? 
+
       Dans chacune de mes expériences, on m’a demandé de mettre en place des systèmes (non optimisé) pour pouvoir répondre à des besoins opérationnels ou analytiques alors que la structure n’était pas prévu pour cela.
-      Aujourd’hui, j’ai appronfondi mes connaissances en **Data Engineering** pour mettre la **Data** au centre de mon quotidien et ainsi répondre au besoin fonctionnel de manière optimisée.
+      Désormais, je veux être en capacité d’optimiser et structurer ce genre de besoin.
+
+      Ce que je fais aujourd’hui ? 
+
+      Aujourd’hui, j’ai appronfondi mes connaissances en **Data Engineering** via notamment une formation diplomante certifié par l’**Ecole des Mines ParisTech** au sein de l’organisme **DataScientest**. 
+      Mais aussi via d’autres plateformes d’apprentissage comme : **DataCamp**, **CloudAcademy** et **Udemy**.
+
+      Ce que je recherche pour ma carrière ?
+
+      Je souhaite mettre la **Data** au centre de mon quotidien via un poste de **Backend Engineer** avec une gros **focus** sur la **Data Engineering**. 
 
   experience-old:
     enable: true
