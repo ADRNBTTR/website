@@ -334,12 +334,12 @@ params:
       - title: "Ingénieur - Système d’information"
         school:
           name: "CNAM - Conservatoire National des Arts et Métiers"
-        date: "Validé à 90%"
+        date: "Validée à 90%"
 
       - title: "Concepteur en architecture informatique"
         school:
           name: "CNAM - Conservatoire National des Arts et Métiers"
-        date: "Validé à 90%"
+        date: "Validée à 90%"
         content:  Titre RNCP de niveau 6 (Bac+4)
 
       - title: "Licence d’informatique générale"
