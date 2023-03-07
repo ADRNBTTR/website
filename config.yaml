@@ -69,7 +69,7 @@ params:
     enable: true
     intro: "Bonjour, mon nom est"
     title: "Adrien BOUTTIER"
-    aka: "pseudo : adrnbttr"
+    aka: ">> adrnbttr"
     avatar: "/me.jpeg"
     subtitle: "Data & Backend Engineer"
     content: La **Data** au centre de mon quotidien
@@ -99,17 +99,17 @@ params:
       Pourquoi j’aime la **Data** ?
 
       Depuis 2008, ce que j’aime, ce sont les problèmes liés aux données. 
-      L’architecture, la manipulation, la création de requête auprès de la base de données me permettent de me sentir plus proche du besoin fonctionnel.
+      L’architecture, la manipulation, la création de requêtes auprès de la base de données me permettent de me sentir plus proche du besoin fonctionnel.
       Lorsque je m’assure de la qualité d’une API, j’ai toujours préféré approfondir les tests fonctionnels plutôt que garder seulement du code testé de manière unitaire.
 
       Pourquoi, je me forme au métier de **Data Engineer** ? 
 
-      Dans chacune de mes expériences, on m’a demandé de mettre en place des systèmes (non optimisé) pour pouvoir répondre à des besoins opérationnels ou analytiques alors que la structure n’était pas prévu pour cela.
+      Dans chacune de mes expériences, il m’a été demandé de mettre en place des systèmes (non optimisés) pour pouvoir répondre à des besoins opérationnels ou analytiques alors que la structure n’était pas prévue pour cela.
       Désormais, je veux être en capacité d’optimiser et structurer ce genre de besoin.
 
       Ce que je fais aujourd’hui ? 
 
-      Aujourd’hui, j’ai appronfondi mes connaissances en **Data Engineering** via notamment une formation diplomante certifié par l’**Ecole des Mines ParisTech** au sein de l’organisme **DataScientest**. 
+      Aujourd’hui, j’ai appronfondi mes connaissances en **Data Engineering** via notamment une formation diplomante certifiée par l’**Ecole des Mines ParisTech** au sein de l’organisme **DataScientest**. 
       Mais aussi via d’autres plateformes d’apprentissage comme : **DataCamp**, **CloudAcademy** et **Udemy**.
 
       Ce que je recherche pour ma carrière ?
@@ -263,7 +263,7 @@ params:
             - Création et optimisation des requêtes SQL
             - Création d’une interface pour faire des requêtes ElasticsSearch
             - Création de microservices NodeJS
-            - Relation client
+            - Relation clients
         items:
           - Node.JS
           - PostgreSQL
@@ -296,9 +296,9 @@ params:
         localisation: "Lyon"
         content: |-
             - Création et optimisation des requêtes SQL sur une base de données SQL Server
-            - Maintenance et développement des sites de e-commerce (Feuvert, Pimkie, Ikks)
-            - Maintenance et développement du progiciel de gestion commerciale (Expert, connexion, Gitem
-            - Relation client
+            - Maintenance et développement des sites de e-commerce pour la grande distribution
+            - Maintenance et développement du progiciel de gestion commerciale
+            - Relation clients
         items:
           - Visual Basic .NET (VB.NET)
           - C#
@@ -322,7 +322,7 @@ params:
 
   education:
     enable: true
-    title: "Éducation"
+    title: "Formations"
     index: false
     items:
       - title: "Data Engineer"
@@ -334,12 +334,12 @@ params:
       - title: "Ingénieur - Système d’information"
         school:
           name: "CNAM - Conservatoire National des Arts et Métiers"
-        date: ""
+        date: "Validé à 90%"
 
       - title: "Concepteur en architecture informatique"
         school:
           name: "CNAM - Conservatoire National des Arts et Métiers"
-        date: ""
+        date: "Validé à 90%"
         content:  Titre RNCP de niveau 6 (Bac+4)
 
       - title: "Licence d’informatique générale"
