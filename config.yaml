@@ -92,7 +92,7 @@ params:
       icon: fab fa-linkedin
 
   about:
-    enable: true
+    enable: false
     title: "À propos de moi"
     image: "/me.jpeg"
     content: |-
@@ -365,14 +365,13 @@ params:
           - title: Python
           - title: JavaScript
           - title: TypeScript
-          - title: Scala
 
       - title: Framework
         items:
           - title: Node.JS
           - title: Nest.JS
-          - title: Flask
-          - title: Dash
+          - title: Flask / FastAPI
+          - title: Vue.JS
           - title: React.JS
           - title: "..."
 
