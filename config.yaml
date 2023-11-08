@@ -67,12 +67,12 @@ params:
 
   hero:
     enable: true
-    intro: "Bonjour, mon nom est"
+    intro: "Hello, my name is"
     title: "Adrien BOUTTIER"
     aka: ">> adrnbttr"
     avatar: "/me.jpeg"
-    subtitle: "Data & Backend Engineer"
-    content: La **Data** au centre de mon quotidien
+    subtitle: "Senior Data & Software Engineer"
+    content: My focus is on **Data**
     image: /me.jpeg
     button:
       enable: false
@@ -92,29 +92,15 @@ params:
       icon: fab fa-linkedin
 
   about:
-    enable: false
-    title: "À propos de moi"
+    enable: true
+    title: "About me"
     image: "/me.jpeg"
     content: |-
-      Pourquoi j’aime la **Data** ?
+      With over 15 years of experience as a Fullstack developer, my true passion has always centered on backend optimization, data management, and databases. As soon as the opportunity arose, I undertook a 3-month certified training to deepen my skills in data engineering. Since then, I've been consistently training, primarily through Udemy and Datacamp, showcasing my ongoing dedication to the world of Data.
 
-      Depuis 2008, ce que j’aime, ce sont les problèmes liés aux données. 
-      L’architecture, la manipulation, la création de requêtes auprès de la base de données me permettent de me sentir plus proche du besoin fonctionnel.
-      Lorsque je m’assure de la qualité d’une API, j’ai toujours préféré approfondir les tests fonctionnels plutôt que garder seulement du code testé de manière unitaire.
+      Recently, I have further augmented my professional qualifications by achieving a B2 certification in the IELTS English language assessment, underscoring my ability to engage in an international work environment effectively.
 
-      Pourquoi, je me forme au métier de **Data Engineer** ? 
-
-      Dans chacune de mes expériences, il m’a été demandé de mettre en place des systèmes (non optimisés) pour pouvoir répondre à des besoins opérationnels ou analytiques alors que la structure n’était pas prévue pour cela.
-      Désormais, je veux être en capacité d’optimiser et structurer ce genre de besoin.
-
-      Ce que je fais aujourd’hui ? 
-
-      Aujourd’hui, j’ai appronfondi mes connaissances en **Data Engineering** via notamment une formation diplomante certifiée par l’**Ecole des Mines ParisTech** au sein de l’organisme **DataScientest**. 
-      Mais aussi via d’autres plateformes d’apprentissage comme : **DataCamp**, **CloudAcademy** et **Udemy**.
-
-      Ce que je recherche pour ma carrière ?
-
-      Je souhaite mettre la **Data** au centre de mon quotidien via un poste où je devrais répondre à des problèmatiques **Data** et **Backend** en Full-Remote. 
+      Currently involved in a project for my end-of-studies dissertation as part of an evening engineering course, I am actively seeking opportunities as a data engineer or software engineer, with a strong focus on Data. 
 
   experience-old:
     enable: true
@@ -182,27 +168,59 @@ params:
 
   experience:
     enable: true
-    title: "Expériences"
+    title: "Experiences"
     index: false
     items:
+      - title: "Senior Data & Software Engineer"
+        company:
+          name: "Marvin Recruiter"
+        date: "Sept 2023 - Feb, 2024"
+        localisation: "À distance"
+        content: |-
+            - Improve the database design
+            - Improve the data pipeline
+            - Improve the data suggestion
+            - Improve the data matching
+            - Improve an API Rest
+            - Implementing an event driven architectures
+        items:
+          - Python
+          - Node.JS
+          - Vue3.JS
+          - Database design
+          - SQL / NoSQL Query
+          - NLP (Natural Language Process)
+          - Machine Learning
+          - Scala
+          - Database design
+          - Event-driven architectures
+          - MongoDB
+          - Algolia
+          - Terraform
+          - CI / CD
+          - Docker
+          - Google Cloud Platform (Pub/Sub - Serverless - Scheduler - Atlas)
+
       - title: "Lead Backend Engineer"
         company:
           name: "Popwork"
         date: "août 2022 - nov, 2022"
         localisation: "À distance"
         content: |-
-            - Amériolation d’une API GraphQL
-            - Amélioration des requêtes MongoDB
-            - Amélioration de la CI/CD via GitHub Actions et Google Cloud Platform
+            - Improvement of a GraphQL API
+            - Improvement of MongoDB queries
+            - CI/CD enhancement via GitHub Actions and Google Cloud Platform
         items:
           - TypeScript
           - Node.JS
           - MongoDB
           - API Rest & GraphQL
-          - Requêtes de base de données
+          - SQL Query
+          - Database design
           - CI / CD
           - Docker
           - Google Cloud Platform
+          - Event-driven architectures
 
       - title: "Senior Full-Stack / Backend Engineer"
         company:
@@ -210,24 +228,27 @@ params:
         date: "oct 2018 - août, 2022"
         localisation: "À distance"
         content: |-
-            - Amélioration d’une API Rest avec notamment des tests automatisés
-            - Traitement des données avec une base de données MongoDB
-            - Amélioration des microservices
-            - Mise en place de la CI/CD via Kubernetes et Google Cloud Platform
-            - Intervention sur le frontend ReactJS
-            - Intervention sur l’application mobile ReactNative
+            - Improvement of a REST API with automated tests
+            - Data processing with a MongoDB database
+            - Microservices improvement
+            - Setting up CI/CD via Kubernetes and Google Cloud Platform
+            - Work on the ReactJS frontend
+            - Work on the ReactNative mobile application
         items:
           - Node.JS
           - MongoDB
           - API Rest
-          - Requêtes de base de données
+          - SQL Query
+          - Database design
           - CI / CD
           - Docker
           - Kubernetes
+          - Ansible
           - Microservices
+          - Event-driven architectures
           - RabbitMQ
           - Google Cloud Platform
-          - Test unitaire & fonctionnel
+          - Unit & functional testing
           - React.JS
           - Oauth2
 
@@ -237,18 +258,20 @@ params:
         date: "oct 2017 - sept, 2018"
         localisation: "À distance - Freelance"
         content: |-
-            - Sécurisation d’une API Rest avec Oauth2
-            - Mise en place de microservices
+            - Securing a REST API with OAuth2
+            - Setting up microservices
         items:
           - Node.JS
           - MongoDB
           - API Rest
-          - Requêtes de base de données
+          - SQL Query
+          - Database design
           - Docker
           - Microservices
+          - Event-driven architectures
           - RabbitMQ
           - Google Cloud Platform
-          - Test unitaire & fonctionnel
+          - Unit & functional testing
           - Oauth2
 
       - title: "Lead Full-Stack Engineer"
@@ -257,25 +280,26 @@ params:
         date: "juin 2014 - sept, 2018"
         localisation: "Lyon"
         content: |-
-            - Migration d’une API PHP vers NodeJS
-            - Migration de base de données de MySQL vers PostgreSQL
-            - Sécurisation de l’API avec une couche Oauth2
-            - Création et optimisation des requêtes SQL
-            - Création d’une interface pour faire des requêtes ElasticsSearch
-            - Création de microservices NodeJS
-            - Relation clients
+            - Migration of a PHP API to NodeJS
+            - Database migration from MySQL to PostgreSQL
+            - Securing the API with an OAuth2 layer
+            - Creation and optimization of SQL queries
+            - Creating an interface for making ElasticSearch queries
+            - Creation of NodeJS microservices
+            - Client relations
         items:
           - Node.JS
           - PostgreSQL
           - API Rest
-          - Requêtes de base de données
+          - SQL Query
+          - Database design
           - CI / CD
           - Docker
           - Framework Symfony
-          - Test unitaire & fonctionnel
+          - Unit & functional testing
           - React.JS
           - Elastics Search
-          - SQL
+          - Event-driven architectures
 
       - title: "Web Developer"
         company:
@@ -283,11 +307,11 @@ params:
         date: "jan 2014 - mai, 2014"
         localisation: "À distance"
         items:
-          - Framework Symfony
-          - Requêtes de base de données
+          - Symfony framework
+          - Database design
+          - SQL Query
           - MySQL
-          - Test unitaire & fonctionnel
-          - SQL
+          - Unit & functional testing
 
       - title: "Web Developer"
         company:
@@ -295,20 +319,18 @@ params:
         date: "mars 2009 - jan, 2014"
         localisation: "Lyon"
         content: |-
-            - Création et optimisation des requêtes SQL sur une base de données SQL Server
-            - Maintenance et développement des sites de e-commerce pour la grande distribution
-            - Maintenance et développement du progiciel de gestion commerciale
-            - Relation clients
+            - Creation and optimization of SQL queries on a SQL Server database
+            - Maintenance and development of e-commerce sites for retail
+            - Maintenance and development of commercial management software
+            - Client relations
         items:
           - Visual Basic .NET (VB.NET)
           - C#
           - ASP.NET
-          - Conception de base de données
-          - Gestion de la maintenance
+          - Database design
           - E-commerce
           - Microsoft SQL Server
-          - Requêtes de base de données
-          - SQL
+          - SQL Query
 
       - title: ".Net Developer"
         company:
@@ -318,35 +340,41 @@ params:
         items:
           - C#
           - Microsoft SQL Server
-          - SQL
+          - Database design
+          - SQL Query
 
   education:
     enable: true
-    title: "Formations"
+    title: "Education"
     index: false
     items:
+      - title: "Software Engineer"
+        school:
+          name: "CNAM - Conservatoire National des Arts et Métiers"
+        date: "2014 - 2024"
+
       - title: "Data Engineer"
         school:
           name: "DataScientest"
         date: "jan, 2023 - avril, 2023"
-        content:  Titre RNCP de niveau 7 (Bac+5)
+        content: "Titre RNCP de niveau 7 (Bac+5)"
 
-      - title: "Ingénieur - Système d’information"
+      - title: "IELTS B2 Certification"
         school:
-          name: "CNAM - Conservatoire National des Arts et Métiers"
-        date: "Validée à 90%"
+          name: "British Council"
+        date: "2023"
 
-      - title: "Licence d’informatique générale"
+      - title: "Bachelor's Degree in Computer Science (Equivalent to French Licence Informatique)"
         school:
           name: "CNAM - Conservatoire National des Arts et Métiers"
         date: "2011 - 2014"
 
-      - title: "BTS informatique de gestion"
+      - title: "IT Advanced Technician Certificate (Equivalent to French BTS Informatique"
         school:
           name: "Lycée Douanier Rousseau - Laval"
         date: "2006 - 2008"
 
-      - title: "BTS Banque"
+      - title: "Bank Advanced Technician Certificate (Equivalent to French BTS Banque)"
         school:
           name: "CFPB - Centre de formation de la profession bancaire"
         date: "2004 - 2005"
@@ -357,8 +385,11 @@ params:
       - title: Languages
         items:
           - title: Python
+          - title: Scala
+          - title: Rust
           - title: JavaScript
           - title: TypeScript
+          - title: .Net C#
 
       - title: Framework
         items:
@@ -372,26 +403,36 @@ params:
       - title: Data Engineering
         items:
           - title: Spark
+          - title: Python / Scala / Rust
+          - title: Airflow
+          - title: RabbitMQ
+          - title: SQL Query
+          - title: Database design
           - title: DataBrick
           - title: SnowFlake
-          - title: Hadoop
-          - title: Airflow
           - title: Kafka
           - title: Power BI
+          - title: Qlik Sense
 
-      - title: Base de données
+      - title: Databases
         items:
           - title: PostgreSQL
           - title: MongoDB
+          - title: SQL Server
+          - title: MySQL
+          - title: SQlite
+          - title: ElasticSearch
+          - title: Algolia
           - title: Neo4J
 
       - title: Local environnment
         items:
-          - title: NeoVim (LunarVim)
+          - title: NeoVim / NvChad / Tmux 
           - title: Linux
           - title: Bépo Keyboard
           - title: MacOS
           - title: Visual Studio Code
+          - title: Windows
 
       - title: DevOps
         items:
@@ -400,6 +441,7 @@ params:
           - title: Docker
           - title: Kubernetes
           - title: Terraform
+          - title: Debian
 
       - title: CI / CD
         items:
