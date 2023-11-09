@@ -72,7 +72,7 @@ params:
     aka: ">> adrnbttr"
     avatar: "/me.jpeg"
     subtitle: "Senior Data & Software Engineer"
-    content: **Data** is the focus
+    content: "**Data** is the focus"
     image: /me.jpeg
     button:
       enable: false
