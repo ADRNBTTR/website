@@ -72,7 +72,7 @@ params:
     aka: ">> adrnbttr"
     avatar: "/me.jpeg"
     subtitle: "Senior Data & Software Engineer"
-    content: My focus is on **Data**
+    content: **Data** is the focus
     image: /me.jpeg
     button:
       enable: false
@@ -175,24 +175,21 @@ params:
         company:
           name: "Marvin Recruiter"
         date: "Sept 2023 - Feb, 2024"
-        localisation: "À distance"
+        localisation: "Remote"
         content: |-
-            - Improve the database design
-            - Improve the data pipeline
-            - Improve the data suggestion
-            - Improve the data matching
-            - Improve an API Rest
-            - Implementing an event driven architectures
+            - Optimize database design
+            - Improve data pipeline, suggestion, and matching algorithms
+            - Revamp REST API and vue.js frontend
+            - Implement event-driven architecture
         items:
           - Python
           - Node.JS
           - Vue3.JS
           - Database design
           - SQL / NoSQL Query
-          - NLP (Natural Language Process)
+          - NLP (Natural Language Processing)
           - Machine Learning
           - Scala
-          - Database design
           - Event-driven architectures
           - MongoDB
           - Algolia
@@ -204,12 +201,13 @@ params:
       - title: "Lead Backend Engineer"
         company:
           name: "Popwork"
-        date: "août 2022 - nov, 2022"
-        localisation: "À distance"
+        date: "Aug. 2022 - Nov. 2022"
+        localisation: "Remote"
         content: |-
-            - Improvement of a GraphQL API
-            - Improvement of MongoDB queries
-            - CI/CD enhancement via GitHub Actions and Google Cloud Platform
+            - Enhancement of a GraphQL API
+            - Improve the data pipeline
+            - Optimization of MongoDB queries
+            - CI/CD process improvement with GitHub Actions and Google Cloud Platform
         items:
           - TypeScript
           - Node.JS
@@ -225,15 +223,15 @@ params:
       - title: "Senior Full-Stack / Backend Engineer"
         company:
           name: "JobyPepper"
-        date: "oct 2018 - août, 2022"
-        localisation: "À distance"
+        date: "Oct. 2018 - Aug. 2022"
+        localisation: "Remote"
         content: |-
-            - Improvement of a REST API with automated tests
-            - Data processing with a MongoDB database
-            - Microservices improvement
-            - Setting up CI/CD via Kubernetes and Google Cloud Platform
-            - Work on the ReactJS frontend
-            - Work on the ReactNative mobile application
+            - REST API enhancement with automated testing
+            - Data processing optimization using MongoDB
+            - Microservices architecture refinement
+            - CI/CD implementation with Kubernetes and Google Cloud Platform
+            - Development and enhancement of ReactJS frontend
+            - Contribution to the ReactNative mobile application
         items:
           - Node.JS
           - MongoDB
@@ -255,11 +253,11 @@ params:
       - title: "Senior Backend Engineer"
         company:
           name: "JobyPepper"
-        date: "oct 2017 - sept, 2018"
-        localisation: "À distance - Freelance"
+        date: "Oct. 2017 - Sept. 2018"
+        localisation: "Remote - Freelance"
         content: |-
             - Securing a REST API with OAuth2
-            - Setting up microservices
+            - Establishing microservices architecture
         items:
           - Node.JS
           - MongoDB
@@ -277,7 +275,7 @@ params:
       - title: "Lead Full-Stack Engineer"
         company:
           name: "Wanadev"
-        date: "juin 2014 - sept, 2018"
+        date: "Jun. 2014 - Sept. 2018"
         localisation: "Lyon"
         content: |-
             - Migration of a PHP API to NodeJS
@@ -285,7 +283,7 @@ params:
             - Securing the API with an OAuth2 layer
             - Creation and optimization of SQL queries
             - Creating an interface for making ElasticSearch queries
-            - Creation of NodeJS microservices
+            - Development of NodeJS microservices
             - Client relations
         items:
           - Node.JS
@@ -304,8 +302,8 @@ params:
       - title: "Web Developer"
         company:
           name: "KNP Labs"
-        date: "jan 2014 - mai, 2014"
-        localisation: "À distance"
+        date: "Jan. 2014 - May 2014"
+        localisation: "Remote"
         items:
           - Symfony framework
           - Database design
@@ -316,7 +314,7 @@ params:
       - title: "Web Developer"
         company:
           name: "DotSoft"
-        date: "mars 2009 - jan, 2014"
+        date: "Mar. 2009 - Jan. 2014"
         localisation: "Lyon"
         content: |-
             - Creation and optimization of SQL queries on a SQL Server database
@@ -335,7 +333,7 @@ params:
       - title: ".Net Developer"
         company:
           name: "CGI"
-        date: "juil 2008 - mars, 2009"
+        date: "Jul. 2008 - Mar. 2009"
         localisation: "Paris"
         items:
           - C#
@@ -350,33 +348,33 @@ params:
     items:
       - title: "Software Engineer"
         school:
-          name: "CNAM - Conservatoire National des Arts et Métiers"
+          name: "EICNAM"
         date: "2014 - 2024"
 
       - title: "Data Engineer"
         school:
-          name: "DataScientest"
-        date: "jan, 2023 - avril, 2023"
-        content: "Titre RNCP de niveau 7 (Bac+5)"
+          name: "DataScientest - Mines Paris PSL"
+        date: "Jan. 2023 - Apr. 2023"
+        content: "RNCP level 7 (Bac+5)"
 
       - title: "IELTS B2 Certification"
         school:
           name: "British Council"
         date: "2023"
 
-      - title: "Bachelor's Degree in Computer Science (Equivalent to French Licence Informatique)"
+      - title: "Bachelor's Degree in Computer Science (Equivalent to French Licence)"
         school:
-          name: "CNAM - Conservatoire National des Arts et Métiers"
+          name: "CNAM"
         date: "2011 - 2014"
 
-      - title: "IT Advanced Technician Certificate (Equivalent to French BTS Informatique"
+      - title: "IT Advanced Technician Certificate (Equivalent to French BTS)"
         school:
           name: "Lycée Douanier Rousseau - Laval"
         date: "2006 - 2008"
 
-      - title: "Bank Advanced Technician Certificate (Equivalent to French BTS Banque)"
+      - title: "Bank Advanced Technician Certificate (Equivalent to French BTS)"
         school:
-          name: "CFPB - Centre de formation de la profession bancaire"
+          name: "CFPB - Lyon"
         date: "2004 - 2005"
 
   technologies:
@@ -402,8 +400,10 @@ params:
 
       - title: Data Engineering
         items:
+          - title: Python
+          - title: Rust
+          - title: Scala
           - title: Spark
-          - title: Python / Scala / Rust
           - title: Airflow
           - title: RabbitMQ
           - title: SQL Query
@@ -439,6 +439,7 @@ params:
           - title: Google Cloud Platform
           - title: Scalingo
           - title: Docker
+          - title: Ansible
           - title: Kubernetes
           - title: Terraform
           - title: Debian
