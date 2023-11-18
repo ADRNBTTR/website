@@ -71,7 +71,7 @@ params:
     title: "Adrien BOUTTIER"
     aka: ">> adrnbttr"
     avatar: "/me.jpeg"
-    subtitle: "Senior Data & Software Engineer"
+    subtitle: "Senior Software Engineer"
     content: "**Data** is the focus"
     image: /me.jpeg
     button:
@@ -100,7 +100,7 @@ params:
 
       Recently, I have further augmented my professional qualifications by achieving a B2 certification in the IELTS English language assessment, underscoring my ability to engage in an international work environment effectively.
 
-      Currently involved in a project for my end-of-studies dissertation as part of an evening engineering course, I am actively seeking opportunities as a **Data Engineer** or **Software Engineer**, with a strong focus on Data. 
+      Currently involved in a project for my end-of-studies dissertation as part of an evening engineering course, I am actively seeking opportunities with a strong focus on Data. 
 
   experience-old:
     enable: true
