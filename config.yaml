@@ -71,8 +71,8 @@ params:
     title: "Adrien BOUTTIER"
     aka: ">> adrnbttr"
     avatar: "/me.jpeg"
-    subtitle: "Senior Software Engineer"
-    content: "**Data** is the focus"
+    subtitle: "Lead Tech & Data"
+    content: ""
     image: /me.jpeg
     button:
       enable: false
@@ -92,7 +92,7 @@ params:
       icon: fab fa-linkedin
 
   about:
-    enable: true
+    enable: false
     title: "About me"
     image: "/me.jpeg"
     content: |-
@@ -171,32 +171,36 @@ params:
     title: "Experiences"
     index: false
     items:
-      - title: "Senior Data & Software Engineer"
+      - title: "Lead Tech & Data"
         company:
           name: "Marvin Recruiter"
-        date: "Sept 2023 - Feb, 2024"
+        date: "Sept 2023 - Now"
         localisation: "Remote"
         content: |-
-            - Optimize database design
-            - Improve data pipeline, suggestion, and matching algorithms
-            - Revamp REST API and vue.js frontend
-            - Implement event-driven architecture
+            - Lead a team, focusing on best coding and data management practices.
+            - Optimize database design and enhance data import processes for efficiency and accuracy.
+            - Improve data pipelines, algorithms, and REST API, and revamp the Vue.js frontend for optimal performance.
+            - Implement event-driven architecture to streamline real-time data processing.
+            - Drive technical strategy, aligning with business objectives and maintaining high code and data quality standards.
+            - Facilitate cross-functional collaboration to integrate tech and data insights into business strategies.
         items:
           - Python
           - Node.JS
           - Vue3.JS
+          - TypeScript
+          - Nest.Js
+          - Management
           - Database design
           - SQL / NoSQL Query
           - NLP (Natural Language Processing)
           - Machine Learning
-          - Scala
           - Event-driven architectures
           - MongoDB
-          - Algolia
+          - PostgreSQL
           - Terraform
           - CI / CD
           - Docker
-          - Google Cloud Platform (Pub/Sub - Serverless - Scheduler - Atlas)
+          - Google Cloud Platform
 
       - title: "Lead Backend Engineer"
         company:
