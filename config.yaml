@@ -387,8 +387,6 @@ params:
       - title: Languages
         items:
           - title: Python
-          - title: Scala
-          - title: Rust
           - title: JavaScript
           - title: TypeScript
           - title: .Net C#
@@ -405,15 +403,12 @@ params:
       - title: Data Engineering
         items:
           - title: Python
-          - title: Rust
-          - title: Scala
           - title: Spark
           - title: Airflow
           - title: RabbitMQ
           - title: SQL Query
           - title: Database design
           - title: DataBrick
-          - title: SnowFlake
           - title: Kafka
           - title: Power BI
           - title: Qlik Sense
@@ -427,7 +422,6 @@ params:
           - title: SQlite
           - title: ElasticSearch
           - title: Algolia
-          - title: Neo4J
 
       - title: Local environnment
         items:
