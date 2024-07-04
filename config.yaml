@@ -71,7 +71,7 @@ params:
     title: "Adrien BOUTTIER"
     aka: ">> adrnbttr"
     avatar: "/me.jpeg"
-    subtitle: "Lead Tech & Data"
+    subtitle: "Data Engineer"
     content: ""
     image: /me.jpeg
     button:
@@ -171,13 +171,12 @@ params:
     title: "Experiences"
     index: false
     items:
-      - title: "Lead Tech & Data"
+      - title: "Data Engineer"
         company:
           name: "Marvin Recruiter"
         date: "Sept 2023 - Now"
         localisation: "Remote"
         content: |-
-            - Lead a team, focusing on best coding and data management practices.
             - Optimize database design and enhance data import processes for efficiency and accuracy.
             - Improve data pipelines, algorithms, and REST API, and revamp the Vue.js frontend for optimal performance.
             - Implement event-driven architecture to streamline real-time data processing.
