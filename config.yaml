@@ -185,14 +185,11 @@ params:
         items:
           - Python
           - Node.JS
-          - Vue3.JS
-          - TypeScript
-          - Nest.Js
+          - Vue2.JS
           - Management
           - Database design
           - SQL / NoSQL Query
           - NLP (Natural Language Processing)
-          - Machine Learning
           - Event-driven architectures
           - MongoDB
           - PostgreSQL
@@ -410,7 +407,6 @@ params:
           - title: DataBrick
           - title: Kafka
           - title: Power BI
-          - title: Qlik Sense
 
       - title: Databases
         items:
@@ -420,7 +416,6 @@ params:
           - title: MySQL
           - title: SQlite
           - title: ElasticSearch
-          - title: Algolia
 
       - title: Local environnment
         items:
